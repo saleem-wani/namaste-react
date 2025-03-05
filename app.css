@@ -66,3 +66,17 @@
 .filter-btn{
   margin: 10px;
 }
+
+
+.shimmer-parent-div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.shimmer-card{
+ 
+  height: 400px;
+  width: 200px;
+  background-color: rgb(205, 198, 198);
+  margin: 10px;
+}

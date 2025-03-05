@@ -1,6 +1,7 @@
 import { CDN_URL } from "../utils/constants";
 const RestaurantCard=({resData})=>{
-    const {name,cuisines,avgRating,deliveryTime,cloudinaryImageId}= resData.info || resData.data || {};
+    console.log("resss",resData)
+    const {name,cuisines,avgRating,deliveryTime,cloudinaryImageId}= resData.info ;
     
     return(
         <div className="res-card">
